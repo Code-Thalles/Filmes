@@ -4,6 +4,6 @@
     }
 
     if(!isset($_SESSION['role'])){
-        die("Você não é administrador!<br><p><a href=\"http://localhost/P2/filmes.php\">Página Inicial</p>");
+        die("Você não é administrador!<br><p><a href=\"http://localhost/Filmes/filmes.php\">Página Inicial</p>");
     }
 ?>

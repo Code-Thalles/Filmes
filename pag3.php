@@ -39,12 +39,12 @@
 
     <nav>
         <ul class="menu">
-            <li><a href="http://localhost/P2/filmes.php">Filmes</a></li>
-            <li><a href="http://localhost/P2/series.php">Séries</a></li>
+            <li><a href="http://localhost/Filmes/filmes.php">Filmes</a></li>
+            <li><a href="http://localhost/Filmes/series.php">Séries</a></li>
             <li><a href="logout.php">Sair</a></li>
             <?php
                 if (isset($_SESSION['role']) && $_SESSION['role'] == 'admin') {
-                    echo "<li><a href='http://localhost/P2/adm/adm.php'>ADM</a></li>";
+                    echo "<li><a href='http://localhost/Filmes/adm/adm.php'>ADM</a></li>";
                 }
             ?>
         </ul>
