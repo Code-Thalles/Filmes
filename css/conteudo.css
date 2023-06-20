@@ -1,0 +1,126 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Helvetica;
+}
+
+header{
+	background-color: #3db36b;
+	color: #fff;
+	padding: 15px;
+	text-align: center;
+	border-bottom: 3px solid #0f642f;
+}
+
+.container{
+	background-color: #B0C4DE;
+	min-height: 80vh;
+	padding: 50px;
+}
+
+.products-container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.card{
+	width: 31%;
+	display: inline-block;
+	margin: 1% 1%;
+	padding: 15px;
+}
+
+.product-image{
+	height: 300px;
+	width: 100%;
+	margin-bottom: 10px;
+	background-position: center;
+	background-size: cover;
+}
+
+h3{
+	margin-bottom: 10px;
+	color: #006400;
+	font-size: 24px;
+}
+
+.card p{
+	margin-bottom: 10px;
+}
+
+.btn{
+	display: block;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #3db36b;
+	color: #fff;
+	padding: 15px;
+	border-radius: 5px;
+	transition: .5s;
+}
+
+.btn:hover{
+	background-color: #0f642f;
+}
+
+.product-image img{
+    height: 300px;
+    text-align: center;
+}
+
+.menu{
+    list-style:none;
+    border-bottom: solid #708090;
+    text-align: center;
+    background-color: #B0C4DE;
+    font-size: 20px;
+}
+
+.menu li{
+    position:relative;
+    border-right: solid #c0c0c0;
+    display: inline-block;
+}
+
+.menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+    background:#333;
+    color:#fff;
+    text-shadow:0px 0px 5px #fff;
+}
+
+body{
+	background-color: #B0C4DE;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-bg{
+	text-align: center;
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 15px 15px 0 0;
+	margin: 0 auto;
+    width: 80%;
+}
+
+#form{
+	width: 10%;
+}
+
+.adcForm{
+	display: flex;
+	justify-content: center;
+}
+
+.editar img{
+	width: 30px;
+	height: auto;
+}
